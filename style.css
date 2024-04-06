@@ -1,0 +1,62 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #111;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+    background-color: royalblue;
+    font-size: 24px;
+    position: relative;
+    z-index: 1;
+}
+.header-dvh {
+    height: 100dvh;
+}
+.header-svh {
+    height: 100svh;
+}
+.header-lvh {
+    height: 100lvh;
+}
+.promo-info {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(39, 165, 33);
+    padding: 24px 36px;
+}
+aside {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: aliceblue;
+    padding: 24px;
+    min-width: 128px;
+}
+
+aside a {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+
+.container {
+    background-color: #f1f1f1;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
